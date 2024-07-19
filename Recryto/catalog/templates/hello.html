@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{%if name == 'Recruto'%}
+<h1>Hello {{name}}! {{ message }}!</h1>
+{% else %}
+<h1>Я тебя не знаю.</h1>
+{% endif %}
+{% endblock %}
